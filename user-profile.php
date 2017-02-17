@@ -39,7 +39,7 @@
 <div class="form-container form-horizontal">
     <div class="resp-wrapper">
         <ul id="error_list"></ul>
-        <form action="<?php echo osc_base_url(true); ?>" method="post">
+        <form action="<?php echo osc_base_url(true); ?>" method="post" name="profile">
             <input type="hidden" name="page" value="user" />
             <input type="hidden" name="action" value="profile_post" />
             <div class="control-group">
